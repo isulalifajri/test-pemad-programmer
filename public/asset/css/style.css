@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body, html{
+    scroll-behavior: smooth;
+}
+
+.section,.nav-wrapper{
+    margin: 0 5rem;
+}
+
+header{
+    max-width: 1400px;
+    background-color: #dfdfdd;
+    margin-bottom: 20px;
+}
+.dsp-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+header ul{
+    display: flex;
+    gap:15px;
+}
+header ul li a{
+    font-weight: bold;
+    color:#111;
+}
+header ul li.active a{
+    color:#e32630;
+}
+.container{
+    max-width: 1400px;
+    margin: 20px
+}
+
+.container h1{
+    margin-bottom: 10px;
+}
+table{
+    margin-top: 10px;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+    
+th, td {
+    padding: 10px;
+}
+    
+th {
+    background-color: #cfc8b6;
+}
+
+.btn, button{
+    padding:5px 10px;
+    background-color: rgb(45, 153, 153);
+    border:1px solid #dfdfdd;
+    border-radius: 5px;
+    color:#dfdfdd;
+    margin: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+input, textarea, select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 9px;
+    border: 2px solid #dfdfdf;
+}
+select{
+    color: #111;
+}
+.err{
+    font-size: 14px;
+    color: #e32630;
+    font-weight: 700;
+}
+
+.alert-show{
+    padding: 0 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alert-show.success{
+    background: rgb(39 76 145 / 16%);
+}
+.alert-show.danger{
+    background: #e326303b;
+}
+
+.alert-show button{
+    background: #95565624;
+    color: #111;
+    font-weight: bold;
+    padding: 1px 15px;
+}
+
+.x-none{
+    display: none;
+    visibility: hidden;
+}
+
+.jobs-card{
+    margin-top:30px;
+    padding:5px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdd;
+}
+p.clamp {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.desc{
+    margin-top: 20px;
+    max-height: 70px;
+    overflow: hidden;
+}
+p.esteh{
+    background: #1f95743b;
+    border-radius: 4px;
+    font-size: 12px;
+    width: max-content;
+    margin: auto;
+    padding: 0px 7px;
+}
+p.esdegan{
+    background: #0705863b;
+    border-radius: 4px;
+    font-size: 12px;
+    width: max-content;
+    margin: auto;
+    padding: 0px 7px;
+}
